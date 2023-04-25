@@ -4,7 +4,6 @@ previewsExpireAfterDays: 1
 services:
   - type: web
     name: nest-test
-    env: node
     region: oregon
     plan: free
     branch: master

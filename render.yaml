@@ -11,7 +11,5 @@ services:
     # domains:
     #   - api.coolapp.dev
     startCommand: yarn run start:prod
-    envVars:
-      - key: PORT
-        value: 4000
+
 

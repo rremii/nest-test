@@ -1,0 +1,16 @@
+previewsEnabled: true
+previewsExpireAfterDays: 1
+
+services:
+  - type: web
+    name: nest-test
+    env: node
+    region: oregon
+    plan: starter
+    branch: master
+    # domains:
+    #   - api.coolapp.dev
+    envVars:
+      - key: PORT
+        value: 4000
+
